@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="136" id="O6Z-Bl-Alb" customClass="TableCell" customModule="HomeModule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="136"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O6Z-Bl-Alb" id="oyW-3b-fqY">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="135.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yI6-h8-n57">
+                        <rect key="frame" x="0.0" y="0.0" width="92" height="135.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="85A-Jc-OIR" customClass="CircleImageView" customModule="GITSFramework">
+                                <rect key="frame" x="16" y="16" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="1zO-gb-9nZ"/>
+                                    <constraint firstAttribute="height" constant="60" id="piA-9o-wxn"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="135.5" id="3s6-lz-6aH"/>
+                            <constraint firstItem="85A-Jc-OIR" firstAttribute="leading" secondItem="yI6-h8-n57" secondAttribute="leading" constant="16" id="C3B-Vm-8Zg"/>
+                            <constraint firstAttribute="trailing" secondItem="85A-Jc-OIR" secondAttribute="trailing" constant="16" id="cBG-7e-lAG"/>
+                            <constraint firstItem="85A-Jc-OIR" firstAttribute="top" secondItem="yI6-h8-n57" secondAttribute="top" constant="16" id="i2H-vA-RMQ"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHT-0q-EDa">
+                        <rect key="frame" x="108" y="16" width="225.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.8/10" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgW-dM-YsJ">
+                        <rect key="frame" x="341.5" y="16" width="56.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem isum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rL-RW-9cd">
+                        <rect key="frame" x="108" y="44.5" width="290" height="16"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum , l" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUg-tA-oAH">
+                        <rect key="frame" x="108" y="68.5" width="290" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="yI6-h8-n57" secondAttribute="bottom" id="CFK-S9-Rtw"/>
+                    <constraint firstItem="qgW-dM-YsJ" firstAttribute="leading" secondItem="IHT-0q-EDa" secondAttribute="trailing" constant="8" id="F7e-6G-Ooh"/>
+                    <constraint firstItem="yI6-h8-n57" firstAttribute="leading" secondItem="oyW-3b-fqY" secondAttribute="leading" id="J3c-Ob-Jew"/>
+                    <constraint firstAttribute="trailing" secondItem="4rL-RW-9cd" secondAttribute="trailing" constant="16" id="Lgc-Dw-kpL"/>
+                    <constraint firstItem="qgW-dM-YsJ" firstAttribute="top" secondItem="oyW-3b-fqY" secondAttribute="top" constant="16" id="RpM-Dc-NkM"/>
+                    <constraint firstItem="bUg-tA-oAH" firstAttribute="top" secondItem="4rL-RW-9cd" secondAttribute="bottom" constant="8" id="SgD-ug-jlq"/>
+                    <constraint firstItem="4rL-RW-9cd" firstAttribute="top" secondItem="IHT-0q-EDa" secondAttribute="bottom" constant="8" id="WUK-95-8uW"/>
+                    <constraint firstAttribute="trailing" secondItem="bUg-tA-oAH" secondAttribute="trailing" constant="16" id="baL-a8-OG4"/>
+                    <constraint firstItem="yI6-h8-n57" firstAttribute="top" secondItem="oyW-3b-fqY" secondAttribute="top" id="jSp-l1-hby"/>
+                    <constraint firstItem="IHT-0q-EDa" firstAttribute="leading" secondItem="yI6-h8-n57" secondAttribute="trailing" constant="16" id="kJh-T2-OoP"/>
+                    <constraint firstItem="IHT-0q-EDa" firstAttribute="top" secondItem="oyW-3b-fqY" secondAttribute="top" constant="16" id="m24-eE-kak"/>
+                    <constraint firstAttribute="trailing" secondItem="qgW-dM-YsJ" secondAttribute="trailing" constant="16" id="ptp-jh-As7"/>
+                    <constraint firstItem="bUg-tA-oAH" firstAttribute="leading" secondItem="yI6-h8-n57" secondAttribute="trailing" constant="16" id="qMs-TS-NbA"/>
+                    <constraint firstItem="IHT-0q-EDa" firstAttribute="width" secondItem="qgW-dM-YsJ" secondAttribute="width" multiplier="16:4" id="uwa-9O-5mW"/>
+                    <constraint firstItem="4rL-RW-9cd" firstAttribute="leading" secondItem="yI6-h8-n57" secondAttribute="trailing" constant="16" id="z2r-1X-Ifc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgMovie" destination="85A-Jc-OIR" id="7gl-wh-W3L"/>
+                <outlet property="lbOverview" destination="bUg-tA-oAH" id="Ruf-C6-Lr4"/>
+                <outlet property="lbRating" destination="qgW-dM-YsJ" id="vVo-dz-efS"/>
+                <outlet property="lbSubview" destination="4rL-RW-9cd" id="g2p-WI-RKS"/>
+                <outlet property="lbTitle" destination="IHT-0q-EDa" id="dRU-ns-DaT"/>
+            </connections>
+            <point key="canvasLocation" x="-55.072463768115945" y="63.616071428571423"/>
+        </tableViewCell>
+    </objects>
+</document>

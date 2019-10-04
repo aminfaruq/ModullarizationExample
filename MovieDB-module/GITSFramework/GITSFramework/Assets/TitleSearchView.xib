@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="x05-bj-6V6" customClass="TitleSearchView" customModule="GITSFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="178" height="31"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DRT-pa-bG5">
+                    <rect key="frame" x="0.0" y="0.0" width="178" height="31"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nce-DJ-F5Z">
+                            <rect key="frame" x="0.0" y="0.0" width="178" height="31"/>
+                            <color key="textColor" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="search" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            <connections>
+                                <action selector="textChangeAction:" destination="x05-bj-6V6" eventType="editingChanged" id="Bec-52-b7I"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="178" id="d4B-gJ-lcs"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="kok-Qv-cBb" firstAttribute="trailing" secondItem="DRT-pa-bG5" secondAttribute="trailing" id="52x-L2-o9w"/>
+                <constraint firstItem="DRT-pa-bG5" firstAttribute="leading" secondItem="x05-bj-6V6" secondAttribute="leading" id="EZy-Zg-Smv"/>
+                <constraint firstItem="kok-Qv-cBb" firstAttribute="bottom" secondItem="DRT-pa-bG5" secondAttribute="bottom" id="WAF-hY-gqg"/>
+                <constraint firstItem="DRT-pa-bG5" firstAttribute="top" secondItem="x05-bj-6V6" secondAttribute="top" id="uDY-Yk-B32"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="kok-Qv-cBb"/>
+            <connections>
+                <outlet property="textField" destination="Nce-DJ-F5Z" id="p4T-oi-7G3"/>
+            </connections>
+            <point key="canvasLocation" x="-18" y="-269.5"/>
+        </view>
+    </objects>
+</document>

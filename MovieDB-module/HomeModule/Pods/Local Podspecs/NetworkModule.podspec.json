@@ -1,0 +1,31 @@
+{
+  "name": "NetworkModule",
+  "version": "0.0.1",
+  "summary": "A short description of swift-ios-framework.",
+  "homepage": "http://git.gits.id/RnD/swift-ios-framework",
+  "license": "MIT (ios)",
+  "authors": {
+    "GITS Indonesia": "ajie@gits.co.id"
+  },
+  "source": {
+    "git": "https://git.gits.id/RnD/swift-ios-framework.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "NetworkModule/Classes/**/*.{h,m,swift}",
+  "resource_bundles": {
+    "NetworkModule": [
+      "NetworkModule/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png}"
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "SwiftyJSON": [
+      "~>4.1.0"
+    ]
+  }
+}

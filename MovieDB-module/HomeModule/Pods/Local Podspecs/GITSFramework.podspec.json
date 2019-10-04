@@ -1,0 +1,68 @@
+{
+  "name": "GITSFramework",
+  "version": "0.0.3",
+  "summary": "A short description of swift-ios-framework.",
+  "homepage": "http://git.gits.id/RnD/swift-ios-framework",
+  "license": "MIT (ios)",
+  "authors": {
+    "GITS Indonesia": "yatnosudar@gits.co.id"
+  },
+  "source": {
+    "git": "http://git.gits.id/RnD/swift-ios-framework.git",
+    "tag": "0.0.3"
+  },
+  "source_files": "GITSFramework/Classes/**/*.{h,m,swift}",
+  "resource_bundles": {
+    "GITSFramework": [
+      "GITSFramework/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,plist}"
+    ]
+  },
+  "resources": "GITSFramework/Assets/**",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "NetworkModule": [
+
+    ],
+    "Alamofire": [
+      "~>4.7.2"
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "GITSRest": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "SDWebImage/GIF": [
+
+    ],
+    "SwiftyJSON": [
+      "~>4.1.0"
+    ],
+    "SwiftMessages": [
+      "~>6.0.2"
+    ],
+    "HexColors": [
+      "~>6.0.0"
+    ],
+    "SkyFloatingLabelTextField": [
+
+    ],
+    "SBPickerSelector": [
+      "~>1.2.0"
+    ],
+    "ChameleonFramework/Swift": [
+      "~>2.2.0"
+    ],
+    "M13Checkbox": [
+      "~>3.2.2"
+    ],
+    "Material": [
+      "~> 2.16"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="6X6-2D-4Iv" customClass="BannerCell" customModule="HomeModule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="262"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="262"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WeM-Pa-wHV">
+                        <rect key="frame" x="0.0" y="0.0" width="398" height="262"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wat-dc-iBl">
+                                <rect key="frame" x="0.0" y="0.0" width="398" height="262"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJe-IV-1Ib">
+                                <rect key="frame" x="16" y="135" width="366" height="32"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbN-jJ-FBB">
+                                <rect key="frame" x="16" y="175" width="366" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Wat-dc-iBl" secondAttribute="bottom" id="9h1-Xg-Ec8"/>
+                            <constraint firstAttribute="trailing" secondItem="Wat-dc-iBl" secondAttribute="trailing" id="Bcc-Pm-CQc"/>
+                            <constraint firstAttribute="trailing" secondItem="CJe-IV-1Ib" secondAttribute="trailing" constant="16" id="Cgt-Ug-05g"/>
+                            <constraint firstAttribute="trailing" secondItem="zbN-jJ-FBB" secondAttribute="trailing" constant="16" id="bdS-Ea-aJJ"/>
+                            <constraint firstItem="zbN-jJ-FBB" firstAttribute="top" secondItem="CJe-IV-1Ib" secondAttribute="bottom" constant="8" id="f4V-QL-KLS"/>
+                            <constraint firstItem="CJe-IV-1Ib" firstAttribute="leading" secondItem="WeM-Pa-wHV" secondAttribute="leading" constant="16" id="hRU-n5-ZHV"/>
+                            <constraint firstItem="Wat-dc-iBl" firstAttribute="leading" secondItem="WeM-Pa-wHV" secondAttribute="leading" id="nDs-qX-tD1"/>
+                            <constraint firstItem="zbN-jJ-FBB" firstAttribute="leading" secondItem="WeM-Pa-wHV" secondAttribute="leading" constant="16" id="u8v-pt-xnq"/>
+                            <constraint firstItem="CJe-IV-1Ib" firstAttribute="top" secondItem="WeM-Pa-wHV" secondAttribute="top" constant="135" id="uhQ-7B-wbD"/>
+                            <constraint firstItem="Wat-dc-iBl" firstAttribute="top" secondItem="WeM-Pa-wHV" secondAttribute="top" id="xR2-3d-ClL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="WeM-Pa-wHV" firstAttribute="top" secondItem="6X6-2D-4Iv" secondAttribute="top" id="Cyr-8g-Ahx"/>
+                <constraint firstAttribute="bottom" secondItem="WeM-Pa-wHV" secondAttribute="bottom" id="M1G-18-dQW"/>
+                <constraint firstItem="WeM-Pa-wHV" firstAttribute="leading" secondItem="6X6-2D-4Iv" secondAttribute="leading" id="Wa6-Md-Zyg"/>
+                <constraint firstAttribute="trailing" secondItem="WeM-Pa-wHV" secondAttribute="trailing" id="of4-Tl-A4c"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="HBk-N4-aEm"/>
+            <size key="customSize" width="398" height="262"/>
+            <connections>
+                <outlet property="imgBanner" destination="Wat-dc-iBl" id="tMv-MG-10m"/>
+                <outlet property="lbOverview" destination="zbN-jJ-FBB" id="AHc-Wp-adD"/>
+                <outlet property="lbTitle" destination="CJe-IV-1Ib" id="beG-vZ-ff9"/>
+            </connections>
+            <point key="canvasLocation" x="373.91304347826087" y="99.107142857142847"/>
+        </collectionViewCell>
+    </objects>
+</document>

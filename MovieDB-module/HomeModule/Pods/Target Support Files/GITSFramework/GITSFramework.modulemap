@@ -1,0 +1,6 @@
+framework module GITSFramework {
+  umbrella header "GITSFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

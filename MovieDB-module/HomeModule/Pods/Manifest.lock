@@ -1,0 +1,167 @@
+PODS:
+  - Alamofire (4.7.2)
+  - ChameleonFramework/Default (2.2.0)
+  - ChameleonFramework/Swift (2.2.0):
+    - ChameleonFramework/Default
+  - FLAnimatedImage (1.0.12)
+  - GITSFramework (0.0.3):
+    - Alamofire (~> 4.7.2)
+    - ChameleonFramework/Swift (~> 2.2.0)
+    - GITSRest
+    - HexColors (~> 6.0.0)
+    - IQKeyboardManager
+    - M13Checkbox (~> 3.2.2)
+    - Material (~> 2.16)
+    - NetworkModule
+    - SBPickerSelector (~> 1.2.0)
+    - SDWebImage
+    - SDWebImage/GIF
+    - SkyFloatingLabelTextField
+    - SwiftMessages (~> 6.0.2)
+    - SwiftyJSON (~> 4.1.0)
+  - GITSRest (0.1.2):
+    - Alamofire
+    - SwiftyJSON
+  - HexColors (6.0.0)
+  - iCarousel (1.8.3)
+  - IQKeyboardManager (6.0.3)
+  - M13Checkbox (3.2.2)
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
+  - MXParallaxHeader (1.0.0)
+  - NetworkModule (0.0.1):
+    - Alamofire
+    - SwiftyJSON (~> 4.1.0)
+  - SBPickerSelector (1.2.0):
+    - SBPickerSelector/Core (= 1.2.0)
+  - SBPickerSelector/Core (1.2.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SDWebImage/GIF (4.3.3):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - SkyFloatingLabelTextField (3.4.1)
+  - SwiftMessages (6.0.2):
+    - SwiftMessages/App (= 6.0.2)
+  - SwiftMessages/App (6.0.2)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, tag `4.7.2`)
+  - ChameleonFramework/Swift (from `https://github.com/viccalexander/Chameleon.git`, tag `2.2.0`)
+  - GITSFramework (from `../GITSFramework`)
+  - GITSRest
+  - HexColors (from `https://github.com/mRs-/HexColors.git`, tag `6.0.0`)
+  - iCarousel
+  - IQKeyboardManager (from `https://github.com/hackiftekhar/IQKeyboardManager.git`, tag `v6.0.3`)
+  - Material (~> 2.16)
+  - MXParallaxHeader
+  - NetworkModule (from `../NetworkModule`)
+  - SBPickerSelector (from `https://github.com/Busta117/SBPickerSelector`, tag `1.2.0`)
+  - SDWebImage (from `https://github.com/rs/SDWebImage.git`, tag `4.3.3`)
+  - SkyFloatingLabelTextField (from `https://github.com/Skyscanner/SkyFloatingLabelTextField`, tag `v3.4.1`)
+  - SwiftMessages (from `https://github.com/SwiftKickMobile/SwiftMessages.git`, tag `6.0.2`)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`, tag `4.1.0`)
+
+SPEC REPOS:
+  http://git.gits.id/RnD/cocoapodspecs.git:
+    - GITSRest
+  https://github.com/cocoapods/specs.git:
+    - FLAnimatedImage
+    - iCarousel
+    - M13Checkbox
+    - Material
+    - Motion
+    - MXParallaxHeader
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.7.2
+  ChameleonFramework:
+    :git: https://github.com/viccalexander/Chameleon.git
+    :tag: 2.2.0
+  GITSFramework:
+    :path: "../GITSFramework"
+  HexColors:
+    :git: https://github.com/mRs-/HexColors.git
+    :tag: 6.0.0
+  IQKeyboardManager:
+    :git: https://github.com/hackiftekhar/IQKeyboardManager.git
+    :tag: v6.0.3
+  NetworkModule:
+    :path: "../NetworkModule"
+  SBPickerSelector:
+    :git: https://github.com/Busta117/SBPickerSelector
+    :tag: 1.2.0
+  SDWebImage:
+    :git: https://github.com/rs/SDWebImage.git
+    :tag: 4.3.3
+  SkyFloatingLabelTextField:
+    :git: https://github.com/Skyscanner/SkyFloatingLabelTextField
+    :tag: v3.4.1
+  SwiftMessages:
+    :git: https://github.com/SwiftKickMobile/SwiftMessages.git
+    :tag: 6.0.2
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+    :tag: 4.1.0
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.7.2
+  ChameleonFramework:
+    :git: https://github.com/viccalexander/Chameleon.git
+    :tag: 2.2.0
+  HexColors:
+    :git: https://github.com/mRs-/HexColors.git
+    :tag: 6.0.0
+  IQKeyboardManager:
+    :git: https://github.com/hackiftekhar/IQKeyboardManager.git
+    :tag: v6.0.3
+  SBPickerSelector:
+    :git: https://github.com/Busta117/SBPickerSelector
+    :tag: 1.2.0
+  SDWebImage:
+    :git: https://github.com/rs/SDWebImage.git
+    :tag: 4.3.3
+  SkyFloatingLabelTextField:
+    :git: https://github.com/Skyscanner/SkyFloatingLabelTextField
+    :tag: v3.4.1
+  SwiftMessages:
+    :git: https://github.com/SwiftKickMobile/SwiftMessages.git
+    :tag: 6.0.2
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+    :tag: 4.1.0
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  ChameleonFramework: 2761c9d962c783c3f142050fc5b9ca5dcad9a326
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GITSFramework: a264decee98d655dd209cffc1b6af4794f613576
+  GITSRest: e96605090029b0f68381d15c7b373da9fee8acea
+  HexColors: 59b66679d71777ba70a4ad57b1952dabd2138ca4
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  IQKeyboardManager: c390e612f4b98c8fd748016470138537dc163ead
+  M13Checkbox: a8c2491cfbbca10797925fd0b9154a782bf40d89
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
+  MXParallaxHeader: a95e0af1f485b1b718a6939f583f0dbae6992c41
+  NetworkModule: 9fe1d424280f734eac31e120ee90df34237f443a
+  SBPickerSelector: b71f06f9f3c401e53a725431b4ef2574d1226877
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SkyFloatingLabelTextField: 8085f20f57f74a00cfcae58099299faa1a971035
+  SwiftMessages: 1de9e7f9c706a1fca03734a54bb98276ce49b2c9
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 8cc4258d5008cee5b8fcd0d481a9096d46f04691
+
+COCOAPODS: 1.7.5

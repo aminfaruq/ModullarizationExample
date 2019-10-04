@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingView" customModule="GITSFramework" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MbloadingView" customModule="GITSFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KoU-Iu-KZM">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
+                    <subviews>
+                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="mks-N5-vec">
+                            <rect key="frame" x="169" y="281.5" width="37" height="37"/>
+                            <color key="color" red="0.16862745100000001" green="0.20000000000000001" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="mks-N5-vec" firstAttribute="centerX" secondItem="KoU-Iu-KZM" secondAttribute="centerX" id="8rn-PS-ICh"/>
+                        <constraint firstItem="mks-N5-vec" firstAttribute="centerY" secondItem="KoU-Iu-KZM" secondAttribute="centerY" id="dUF-oX-Hpk"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jA8-eM-0ad">
+                    <rect key="frame" x="31.5" y="144" width="312.5" height="312.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_no_connection" translatesAutoresizingMaskIntoConstraints="NO" id="Du1-jk-2rt">
+                            <rect key="frame" x="78" y="62" width="156" height="156"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Du1-jk-2rt" secondAttribute="height" multiplier="1:1" id="AAZ-wF-Zfy"/>
+                            </constraints>
+                        </imageView>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tidak ada koneksi internet. Mohon periksa perangkat Anda." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaU-09-hqy">
+                            <rect key="frame" x="15" y="226" width="281.5" height="33"/>
+                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="jA8-eM-0ad" secondAttribute="height" multiplier="1:1" id="8HU-qL-UI0"/>
+                        <constraint firstItem="Du1-jk-2rt" firstAttribute="centerY" secondItem="jA8-eM-0ad" secondAttribute="centerY" constant="-16" id="DBS-38-ocY"/>
+                        <constraint firstItem="Du1-jk-2rt" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jA8-eM-0ad" secondAttribute="top" constant="16" id="QYP-nX-ELF"/>
+                        <constraint firstAttribute="trailing" secondItem="ZaU-09-hqy" secondAttribute="trailing" constant="16" id="QiC-0M-Zwc"/>
+                        <constraint firstItem="Du1-jk-2rt" firstAttribute="centerX" secondItem="jA8-eM-0ad" secondAttribute="centerX" id="drl-xm-rjh"/>
+                        <constraint firstItem="ZaU-09-hqy" firstAttribute="leading" secondItem="jA8-eM-0ad" secondAttribute="leading" constant="15" id="kXQ-Yg-hym"/>
+                        <constraint firstItem="Du1-jk-2rt" firstAttribute="width" secondItem="jA8-eM-0ad" secondAttribute="width" multiplier="1/2" id="uRN-Cm-out"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ZaU-09-hqy" secondAttribute="bottom" constant="16" id="yBG-ij-ZvE"/>
+                        <constraint firstItem="ZaU-09-hqy" firstAttribute="top" secondItem="Du1-jk-2rt" secondAttribute="bottom" constant="8" id="ynJ-3r-CYe"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KoU-Iu-KZM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VKI-eW-OBO"/>
+                <constraint firstAttribute="bottom" secondItem="KoU-Iu-KZM" secondAttribute="bottom" id="YJt-qD-e6H"/>
+                <constraint firstItem="jA8-eM-0ad" firstAttribute="centerY" secondItem="KoU-Iu-KZM" secondAttribute="centerY" id="bmx-pk-o23"/>
+                <constraint firstItem="jA8-eM-0ad" firstAttribute="centerX" secondItem="KoU-Iu-KZM" secondAttribute="centerX" id="dfY-qU-Qs4"/>
+                <constraint firstItem="jA8-eM-0ad" firstAttribute="width" secondItem="KoU-Iu-KZM" secondAttribute="width" multiplier="1/1.2" id="tON-EO-Jbd"/>
+                <constraint firstItem="KoU-Iu-KZM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="utz-sy-ZBq"/>
+                <constraint firstAttribute="trailing" secondItem="KoU-Iu-KZM" secondAttribute="trailing" id="vRz-P7-o0v"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="errorMessageUI" destination="ZaU-09-hqy" id="0nM-bm-Piw"/>
+                <outlet property="noConnectionImg" destination="Du1-jk-2rt" id="lkD-8L-iXf"/>
+                <outlet property="noConnectionView" destination="jA8-eM-0ad" id="m5N-zX-vPQ"/>
+                <outlet property="progressActivity" destination="mks-N5-vec" id="MBD-tu-8J6"/>
+                <outlet property="viewParent" destination="KoU-Iu-KZM" id="aNJ-je-yZY"/>
+            </connections>
+            <point key="canvasLocation" x="155" y="108"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_no_connection" width="164" height="156"/>
+    </resources>
+</document>
